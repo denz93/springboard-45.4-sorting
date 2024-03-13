@@ -18,6 +18,7 @@ describe('pivot', function () {
 
   it('should mutate the array by placing values on either side of the pivot', function () {
     var arr1 = [5, 4, 9, 10, 2, 20, 8, 7, 3];
+
     var arr2 = [8, 4, 2, 5, 0, 10, 11, 12, 13, 16];
     pivot(arr1);
     pivot(arr2);
